@@ -1,0 +1,60 @@
+@media (min-width: $tabletResolutionModifiedMin) and (max-width: $tabletResolution) {
+  .center {
+    padding: 0 calc(50% - 394px);
+  }
+
+  .for-block {
+    gap: 30px;
+
+    &s {
+      height: 268px;
+    }
+  }
+
+  .goods-flex {
+    gap: 29px;
+  }
+
+  .show-more {
+    text-decoration: underline;
+  }
+
+  .cart {
+    &-flex {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &-footer-proceed {
+      color: #FFFFFF;
+      background: black;
+    }
+  }
+
+  .footer {
+    padding-top: 32px;
+    padding-bottom: 40px;
+
+    &__logo {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: $tabletResolutionModifiedMin) and (max-width: $tabletResolutionModifiedMax) {
+  .center {
+    padding: 0 24px;
+  }
+  .goods-box {
+    width: 345px;
+
+    &-img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .footer {
+    padding-top: 32px;
+    padding-bottom: 40px;
+  }
+}
